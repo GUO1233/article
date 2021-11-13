@@ -85,6 +85,7 @@ public class CommentService {
      * @param id
      */
     public void updateCommentLikenum(String id){
+        System.out.println("github测试4");
         System.out.println("github测试3");
         System.out.println("github测试2");
         System.out.println("github测试1");
