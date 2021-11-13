@@ -86,6 +86,7 @@ public class CommentService {
      */
     public void updateCommentLikenum(String id){
         System.out.println("github测试");
+        System.out.println("github测试1");
         //查询对象
         Query query= Query.query(Criteria.where("_id").is(id));
         //更新对象
