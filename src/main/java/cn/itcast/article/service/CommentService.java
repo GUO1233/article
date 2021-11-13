@@ -85,7 +85,6 @@ public class CommentService {
      * @param id
      */
     public void updateCommentLikenum(String id){
-        System.out.println("测试push到远程是不是合并的策略");
         //查询对象
         Query query= Query.query(Criteria.where("_id").is(id));
         //更新对象
