@@ -8,6 +8,7 @@ package cn.itcast.article.po;
 public class Person {
     private String name;
     private String age;
+    private String sex;
 
     public void tellSpreak(){
         System.out.println("hello everyday");
