@@ -13,4 +13,8 @@ public class Person {
     public void tellSpreak(){
         System.out.println("hello everyday");
     }
+
+    public void eat(){
+        System.out.println("大米饭");
+    }
 }
